@@ -13,7 +13,7 @@ lspconfig.html.setup({
     },
 })
 
-lspconfig.tsserver.setup({
+lspconfig.ts_ls.setup({
     filetypes = { 'javascript', 'typescript', 'typescriptreact', 'javascriptreact', 'html', 'gohtml' },
 })
 

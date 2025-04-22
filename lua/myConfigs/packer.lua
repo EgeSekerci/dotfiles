@@ -44,6 +44,12 @@ return require('packer').startup(function(use)
     }
     use { 'nvimtools/none-ls.nvim' }
     use { "catppuccin/nvim", as = "catppuccin" }
+    use {
+      "folke/tokyonight.nvim",
+      lazy = false,
+      priority = 1000,
+      opts = {},
+}
     use "EdenEast/nightfox.nvim"
     use {
         'nvim-lualine/lualine.nvim',
